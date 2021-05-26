@@ -1,0 +1,159 @@
+.container{
+  position:relative;
+}
+.winner{
+  position: absolute;
+  color: red;
+  font-size: 50pt;
+  font-weigth: bold;
+  width: 460px;
+  height: 460px;
+  text-align: center;
+  background-color: white;
+  top: 0;
+  display:none;
+}
+.game {
+  width: 460px;
+  height: 460px;
+  position:relative;
+}
+.controls{
+  text-align: center;
+}
+.counter, .start, .strict, .switch, .bottom .label {
+  display: inline-block;
+  margin: 5px;
+}
+.start .button, .strict .button{
+  position:relative;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto 4px auto;
+  border: 2px solid grey;
+  box-shadow: 0px 2px 3px #222;
+}
+
+.start .button:active ,.strict .button:active{
+  top: 2px;
+  box-shadow:0 1px 1px #292929;
+}
+.start .button{
+  background-color: red;
+}
+.strict .button{
+  background-color: yellow;
+}
+.strict .lamp{
+  width: 5px;
+  height: 5px;
+  margin: 0 auto 2px auto;
+  background-color:black;
+  border-radius:50%;
+  border: 3px black solid;
+}
+.strict .lamp.on{
+  background-color:red;
+}
+.label{
+  font-size: 8pt;
+}
+.counter .value {
+  background-color: black;  
+  text-align:center;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 25pt;
+  width: 60px;
+  letter-spacing: 3px;
+}
+
+.counter.on .value {
+  color: red;
+}
+.counter{
+  position: relative;
+}
+.wrongvalue{
+  position: absolute;
+  color: red;
+  font-size: 25pt;
+  width: 60px;
+  letter-spacing: 36px;
+  top: 2px;
+  left: 2px;
+  display:none;
+}
+
+.bottom {
+  margin-top: 5px;
+}
+
+.bottom .switch{
+  border: 2px solid grey;
+  border-radius:2px;
+  width: 50px;
+  background: linear-gradient(to right, #CF9751 0%,#CF9751 50%,#ddd 50%,#fff 100%);
+}
+.bottom .switch.on{
+  background: linear-gradient(to left, #CF9751 0%,#CF9751 50%,#ddd 50%,#fff 100%);
+}
+
+.center{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin: -115px 0 0 -115px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 15px solid grey;
+  border-radius: 50%;
+}
+.title{
+  text-align:center;
+}
+.left, .right {
+  width:200px;
+  height:200px;
+  display: inline-block;
+  margin-right: -4px;
+  padding: 0;
+  border:15px solid grey;
+}
+.upper, .lower{
+  margin-bottom:-4px;
+  padding:0;
+  height:50%;
+}
+.upper .left {
+  background-color: green;
+  border-radius: 100% 0 0 0;
+}
+.upper .left.on {
+  background-color: lightgreen;
+}
+.upper .right {
+  background-color: red;
+  border-radius: 0 100% 0 0;
+}
+.upper .right.on {
+  background-color: lightcoral;
+}
+.lower .left {
+  background-color: yellow;
+  border-radius: 0 0 0 100%;
+}
+.lower .left.on {
+  background-color: lightyellow;
+}
+
+.lower .right {
+  background-color: blue;
+  border-radius: 0 0 100% 0;
+}
+.lower .right.on {
+  background-color: lightblue;
+}
