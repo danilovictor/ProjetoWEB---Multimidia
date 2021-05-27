@@ -29,6 +29,12 @@ body{
 
 }
 
+audio{
+  align-items: center;
+  display:flex;
+  justify-content: center;
+}
+
 .container{
   position:relative;
   display:flex;
