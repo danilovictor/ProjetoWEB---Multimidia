@@ -125,6 +125,9 @@ body{
 }
 .title{
   text-align:center;
+  font-size:15px;
+  Color:purple;
+  font-family: sans-serif;
 }
 .left, .right {
   width:200px;
