@@ -29,6 +29,13 @@ body{
 
 }
 
+.animacao img{
+  height:250px;
+  margin-top:10px;
+  margin-left:10px;
+  width:350px;
+}
+
 audio{
   align-items: center;
   display:flex;
@@ -40,7 +47,7 @@ audio{
   display:flex;
   justify-content: center;
   align-items: center;
-  margin-top:40px;
+  margin-top:-250px;
   
 }
 .winner{
